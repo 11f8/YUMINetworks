@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YUMINetworksProject_Example' do
+  pod 'YUMINetworksProject', :path => '../'
+
+  target 'YUMINetworksProject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
