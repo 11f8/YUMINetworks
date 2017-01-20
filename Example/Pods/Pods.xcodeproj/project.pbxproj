@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11825F2A6711136801AFB662F6A60E2F /* YUMINetworksProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D00D8D2D5616F2617C509D60F3FD19A9 /* YUMINetworksProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E0471BE7FDE6FA752C731BF9763FE5 /* YuMIVideoAdUnityNetworkAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C67D53E7CC292DF1A24B2B4E70EA0C /* YuMIVideoAdUnityNetworkAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A22C8A4FBFD287F5EC80116249F640 /* audio_on.png in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E062AAF3D7DD34F519DFF330C5FD3 /* audio_on.png */; };
+		42135031969972F5A2D7C33BF7D01798 /* audio_mute@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 429FAAB5E93EA07ED37302E2A1EBB2ED /* audio_mute@2x.png */; };
+		4A74F427EFD0A76C4B057349B0D1DDF0 /* UADSPlayerMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = C276375A12C671C12F7858C58AACF5C6 /* UADSPlayerMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5539D012FBDAD7F8A49544E288C26B5D /* audio_mute.png in Sources */ = {isa = PBXBuildFile; fileRef = 142E2FDB5A5C4DB088120CE8A1B6349C /* audio_mute.png */; };
+		6198722795243806C46B9046576BEE6C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 2DC06B114431E4A215AFEEFD6FA00CB1 /* Info.plist */; };
+		6983F64D595A7BE62D5C657367C86D00 /* UnityAds in Sources */ = {isa = PBXBuildFile; fileRef = 720032E336E9CC96902C064F04B3005F /* UnityAds */; };
+		71562C607F4010EFCD3C4BD9AD7B92BD /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F0F763F48B3E472BD88BCAAE6C240 /* module.modulemap */; };
+		7B9FD2632DA0174AF590D4CA1267EB96 /* audio_on@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9B37A5BFB7D90C9DEF5574422CE912AE /* audio_on@2x.png */; };
+		838A99D67971DBF6E2D069B68E47DD9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		85BADAAEDCAE684F2859A9D343398E76 /* UADSMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 304B352E8A0B4F3661C5900E36FB93E9 /* UADSMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9146329D3EB129AF89DF4493A58FF761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A7F503AF2A21AC20999A1749DB592B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BA4B1F6FC1ECA5FA9F5C539CD56F4EC8 /* Pods-YUMINetworksProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E186718B6186C5EE4FEDF2392ADCF4D8 /* Pods-YUMINetworksProject_Example-dummy.m */; };
+		BD823A1C984DCADF1CD20030A7AE5A51 /* Pods-YUMINetworksProject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4570F085B10CA36FF09D45894CE225 /* Pods-YUMINetworksProject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D38D4D7189B9317F50E7577703B089 /* YuMIVideoAdUnityNetworkAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4DBE62F444DA13F671375A78D35B5F /* YuMIVideoAdUnityNetworkAdapter.m */; };
+		DB4E3BACCFE2578733060D78145AD591 /* YUMINetworksProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5325E2D069595281DF2026AD94F17 /* YUMINetworksProject-dummy.m */; };
+		DDDC46D9592610C6D43A264DF985982D /* UnityAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D3B5A0FC024CE43C77A4B4E6A997D7 /* UnityAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33A0372D31DB25AAD39723BE92F9564 /* UADSMediationMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F68EEC78D9147C02EEBF8A62EDDB62 /* UADSMediationMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79D2017BF69407397D6E9F40CB9026B /* Pods-YUMINetworksProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0DD134E120262D7689A1476D24332C /* Pods-YUMINetworksProject_Tests-dummy.m */; };
+		FDF05AF5D28C5C8D1A2C65010BDA85B5 /* Pods-YUMINetworksProject_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0779027C7BF53AF127B27104EF12B07E /* Pods-YUMINetworksProject_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B1F5DEA01CE74033E71E498E0B9FDB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA10CE24D0BA37CBE2E5BDAAC062E99;
+			remoteInfo = YUMINetworksProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0779027C7BF53AF127B27104EF12B07E /* Pods-YUMINetworksProject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUMINetworksProject_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0B0DD134E120262D7689A1476D24332C /* Pods-YUMINetworksProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUMINetworksProject_Tests-dummy.m"; sourceTree = "<group>"; };
+		142E2FDB5A5C4DB088120CE8A1B6349C /* audio_mute.png */ = {isa = PBXFileReference; includeInIndex = 1; path = audio_mute.png; sourceTree = "<group>"; };
+		19D3B5A0FC024CE43C77A4B4E6A997D7 /* UnityAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UnityAds.h; sourceTree = "<group>"; };
+		1B9B3B7C9C55344E911D0A94EF7169C8 /* YUMINetworksProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YUMINetworksProject.modulemap; sourceTree = "<group>"; };
+		25C67D53E7CC292DF1A24B2B4E70EA0C /* YuMIVideoAdUnityNetworkAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YuMIVideoAdUnityNetworkAdapter.h; sourceTree = "<group>"; };
+		2A339D7B9886599E8D2C030ED97E4222 /* YUMINetworksProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YUMINetworksProject.framework; path = YUMINetworksProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B00088C5EE7E37659225CE2AF1265E8 /* Pods-YUMINetworksProject_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUMINetworksProject_Tests-resources.sh"; sourceTree = "<group>"; };
+		2DC06B114431E4A215AFEEFD6FA00CB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304B352E8A0B4F3661C5900E36FB93E9 /* UADSMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UADSMetaData.h; sourceTree = "<group>"; };
+		369C107CD3F9C8BB794BA9944E828955 /* Pods-YUMINetworksProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YUMINetworksProject_Tests.modulemap"; sourceTree = "<group>"; };
+		39C66D4E8DE9A65D528F19704642C360 /* YUMINetworksProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUMINetworksProject-prefix.pch"; sourceTree = "<group>"; };
+		3D692BCD62D96563190DB7906447DE04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429FAAB5E93EA07ED37302E2A1EBB2ED /* audio_mute@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "audio_mute@2x.png"; sourceTree = "<group>"; };
+		4C638DE8E22BD9DA515BCE990CC03109 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E091766351B8594B3E7431A6DCE2CAD /* Pods-YUMINetworksProject_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUMINetworksProject_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5A5FE72C7E4A001D21B8A7CCDB6517A7 /* Pods-YUMINetworksProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUMINetworksProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D5E062AAF3D7DD34F519DFF330C5FD3 /* audio_on.png */ = {isa = PBXFileReference; includeInIndex = 1; path = audio_on.png; sourceTree = "<group>"; };
+		6E2F0F763F48B3E472BD88BCAAE6C240 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = module.modulemap; sourceTree = "<group>"; };
+		720032E336E9CC96902C064F04B3005F /* UnityAds */ = {isa = PBXFileReference; includeInIndex = 1; path = UnityAds; sourceTree = "<group>"; };
+		7894310237C19B7C6F09D559CCC86454 /* Pods-YUMINetworksProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUMINetworksProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		846AB644C3BFDAB90145800627FA7F73 /* Pods_YUMINetworksProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YUMINetworksProject_Example.framework; path = "Pods-YUMINetworksProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B04D4EDD5A837A848968C943B1B4F1F /* Pods-YUMINetworksProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUMINetworksProject_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8C4570F085B10CA36FF09D45894CE225 /* Pods-YUMINetworksProject_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUMINetworksProject_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98E92299BFFE2402C6DD47BBAB6EEFEE /* Pods-YUMINetworksProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUMINetworksProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		99BEE775075A100B9F04281A7AE98EEA /* Pods-YUMINetworksProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YUMINetworksProject_Example.modulemap"; sourceTree = "<group>"; };
+		99CECC862CA4A81B2A2DE8E9615C8E84 /* Pods-YUMINetworksProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUMINetworksProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B37A5BFB7D90C9DEF5574422CE912AE /* audio_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "audio_on@2x.png"; sourceTree = "<group>"; };
+		ADBB470B2C552D847598E4ABFFD396FA /* Pods-YUMINetworksProject_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUMINetworksProject_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B4D3D04DDD37152DDA27F45774E0F1F6 /* Pods-YUMINetworksProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUMINetworksProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0F68EEC78D9147C02EEBF8A62EDDB62 /* UADSMediationMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UADSMediationMetaData.h; sourceTree = "<group>"; };
+		C276375A12C671C12F7858C58AACF5C6 /* UADSPlayerMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UADSPlayerMetaData.h; sourceTree = "<group>"; };
+		C877F8F4DA792F5F27AF8EC1A5220FBD /* YUMINetworksProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YUMINetworksProject.xcconfig; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D00D8D2D5616F2617C509D60F3FD19A9 /* YUMINetworksProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUMINetworksProject-umbrella.h"; sourceTree = "<group>"; };
+		D20131497890DD1BFE18024867708621 /* Pods-YUMINetworksProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUMINetworksProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4DBE62F444DA13F671375A78D35B5F /* YuMIVideoAdUnityNetworkAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YuMIVideoAdUnityNetworkAdapter.m; sourceTree = "<group>"; };
+		DDE5325E2D069595281DF2026AD94F17 /* YUMINetworksProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YUMINetworksProject-dummy.m"; sourceTree = "<group>"; };
+		E04F27806C31674A26B1D49F42325871 /* Pods-YUMINetworksProject_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUMINetworksProject_Example-resources.sh"; sourceTree = "<group>"; };
+		E186718B6186C5EE4FEDF2392ADCF4D8 /* Pods-YUMINetworksProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUMINetworksProject_Example-dummy.m"; sourceTree = "<group>"; };
+		E214AE757EBA12DB6C1822D708CC7001 /* Pods_YUMINetworksProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YUMINetworksProject_Tests.framework; path = "Pods-YUMINetworksProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F9AD752313D1C2BA8B1AAF7F2717B7 /* Pods-YUMINetworksProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUMINetworksProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF0DE27F00C0F8974C0CA78DCD207324 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E692A1EFFA10F5E1F4700F2950AA337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146329D3EB129AF89DF4493A58FF761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914EE9474CE3C68E29930735EA57195A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838A99D67971DBF6E2D069B68E47DD9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C78E2E5A72DBD9AA5680613F4C4491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F503AF2A21AC20999A1749DB592B48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099FDEEE99D0EEC8C129FC7CF216FFE7 /* YUMIAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				25C67D53E7CC292DF1A24B2B4E70EA0C /* YuMIVideoAdUnityNetworkAdapter.h */,
+				DC4DBE62F444DA13F671375A78D35B5F /* YuMIVideoAdUnityNetworkAdapter.m */,
+			);
+			name = YUMIAdapter;
+			path = YUMIAdapter;
+			sourceTree = "<group>";
+		};
+		1282F7E1CCF8471967010311137C4A7E /* Pods-YUMINetworksProject_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4C638DE8E22BD9DA515BCE990CC03109 /* Info.plist */,
+				99BEE775075A100B9F04281A7AE98EEA /* Pods-YUMINetworksProject_Example.modulemap */,
+				7894310237C19B7C6F09D559CCC86454 /* Pods-YUMINetworksProject_Example-acknowledgements.markdown */,
+				99CECC862CA4A81B2A2DE8E9615C8E84 /* Pods-YUMINetworksProject_Example-acknowledgements.plist */,
+				E186718B6186C5EE4FEDF2392ADCF4D8 /* Pods-YUMINetworksProject_Example-dummy.m */,
+				4E091766351B8594B3E7431A6DCE2CAD /* Pods-YUMINetworksProject_Example-frameworks.sh */,
+				E04F27806C31674A26B1D49F42325871 /* Pods-YUMINetworksProject_Example-resources.sh */,
+				8C4570F085B10CA36FF09D45894CE225 /* Pods-YUMINetworksProject_Example-umbrella.h */,
+				F0F9AD752313D1C2BA8B1AAF7F2717B7 /* Pods-YUMINetworksProject_Example.debug.xcconfig */,
+				8B04D4EDD5A837A848968C943B1B4F1F /* Pods-YUMINetworksProject_Example.release.xcconfig */,
+			);
+			name = "Pods-YUMINetworksProject_Example";
+			path = "Target Support Files/Pods-YUMINetworksProject_Example";
+			sourceTree = "<group>";
+		};
+		289AD98E48EED2337637CB33BE7DA32B /* UnityAds.framework */ = {
+			isa = PBXGroup;
+			children = (
+				2DC06B114431E4A215AFEEFD6FA00CB1 /* Info.plist */,
+				720032E336E9CC96902C064F04B3005F /* UnityAds */,
+				52F65612369F834BFD0B6847DAE3CE61 /* Headers */,
+				CC8FB36D43D2FAB7EE75DA53C729A2B3 /* Modules */,
+			);
+			name = UnityAds.framework;
+			path = UnityAds.framework;
+			sourceTree = "<group>";
+		};
+		2F8EF189DFEA9309B8D9C1C97FD18B3A /* Pods-YUMINetworksProject_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D692BCD62D96563190DB7906447DE04 /* Info.plist */,
+				369C107CD3F9C8BB794BA9944E828955 /* Pods-YUMINetworksProject_Tests.modulemap */,
+				B4D3D04DDD37152DDA27F45774E0F1F6 /* Pods-YUMINetworksProject_Tests-acknowledgements.markdown */,
+				5A5FE72C7E4A001D21B8A7CCDB6517A7 /* Pods-YUMINetworksProject_Tests-acknowledgements.plist */,
+				0B0DD134E120262D7689A1476D24332C /* Pods-YUMINetworksProject_Tests-dummy.m */,
+				ADBB470B2C552D847598E4ABFFD396FA /* Pods-YUMINetworksProject_Tests-frameworks.sh */,
+				2B00088C5EE7E37659225CE2AF1265E8 /* Pods-YUMINetworksProject_Tests-resources.sh */,
+				0779027C7BF53AF127B27104EF12B07E /* Pods-YUMINetworksProject_Tests-umbrella.h */,
+				D20131497890DD1BFE18024867708621 /* Pods-YUMINetworksProject_Tests.debug.xcconfig */,
+				98E92299BFFE2402C6DD47BBAB6EEFEE /* Pods-YUMINetworksProject_Tests.release.xcconfig */,
+			);
+			name = "Pods-YUMINetworksProject_Tests";
+			path = "Target Support Files/Pods-YUMINetworksProject_Tests";
+			sourceTree = "<group>";
+		};
+		3D8B42E20D82C847563980DB87866A38 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C7C09F63622245D37E01E5423A9E2BDF /* UnityAds.bundle */,
+				289AD98E48EED2337637CB33BE7DA32B /* UnityAds.framework */,
+			);
+			name = lib;
+			path = lib;
+			sourceTree = "<group>";
+		};
+		52A310A0C45359745FE2EAA1729F2359 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6BCD4F10B869B33A401A2A9B006FAF9 /* YUMINetworksProject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52F65612369F834BFD0B6847DAE3CE61 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C0F68EEC78D9147C02EEBF8A62EDDB62 /* UADSMediationMetaData.h */,
+				304B352E8A0B4F3661C5900E36FB93E9 /* UADSMetaData.h */,
+				C276375A12C671C12F7858C58AACF5C6 /* UADSPlayerMetaData.h */,
+				19D3B5A0FC024CE43C77A4B4E6A997D7 /* UnityAds.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				52A310A0C45359745FE2EAA1729F2359 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6FE5C780348AFB23AA84606CE250CB6 /* Products */,
+				8D1530F96A1EDE32DC4EBF0631AF7B60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BBBC5F91A71CA4B09627D59BEA8456E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD981D6D44C9BA8F6DE53F070AF9A5CE /* unity_2.0 */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8D1530F96A1EDE32DC4EBF0631AF7B60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1282F7E1CCF8471967010311137C4A7E /* Pods-YUMINetworksProject_Example */,
+				2F8EF189DFEA9309B8D9C1C97FD18B3A /* Pods-YUMINetworksProject_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6BCD4F10B869B33A401A2A9B006FAF9 /* YUMINetworksProject */ = {
+			isa = PBXGroup;
+			children = (
+				BC4ADFB12AD6556FEBF64B1861D41792 /* Support Files */,
+				CA271540FB93658FE42A6AA7C73A121F /* YUMINetworksProject */,
+			);
+			name = YUMINetworksProject;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC4ADFB12AD6556FEBF64B1861D41792 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF0DE27F00C0F8974C0CA78DCD207324 /* Info.plist */,
+				1B9B3B7C9C55344E911D0A94EF7169C8 /* YUMINetworksProject.modulemap */,
+				C877F8F4DA792F5F27AF8EC1A5220FBD /* YUMINetworksProject.xcconfig */,
+				DDE5325E2D069595281DF2026AD94F17 /* YUMINetworksProject-dummy.m */,
+				39C66D4E8DE9A65D528F19704642C360 /* YUMINetworksProject-prefix.pch */,
+				D00D8D2D5616F2617C509D60F3FD19A9 /* YUMINetworksProject-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YUMINetworksProject";
+			sourceTree = "<group>";
+		};
+		C6FE5C780348AFB23AA84606CE250CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846AB644C3BFDAB90145800627FA7F73 /* Pods_YUMINetworksProject_Example.framework */,
+				E214AE757EBA12DB6C1822D708CC7001 /* Pods_YUMINetworksProject_Tests.framework */,
+				2A339D7B9886599E8D2C030ED97E4222 /* YUMINetworksProject.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C09F63622245D37E01E5423A9E2BDF /* UnityAds.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				142E2FDB5A5C4DB088120CE8A1B6349C /* audio_mute.png */,
+				429FAAB5E93EA07ED37302E2A1EBB2ED /* audio_mute@2x.png */,
+				5D5E062AAF3D7DD34F519DFF330C5FD3 /* audio_on.png */,
+				9B37A5BFB7D90C9DEF5574422CE912AE /* audio_on@2x.png */,
+			);
+			name = UnityAds.bundle;
+			path = UnityAds.bundle;
+			sourceTree = "<group>";
+		};
+		CA271540FB93658FE42A6AA7C73A121F /* YUMINetworksProject */ = {
+			isa = PBXGroup;
+			children = (
+				8BBBC5F91A71CA4B09627D59BEA8456E /* Classes */,
+			);
+			name = YUMINetworksProject;
+			path = YUMINetworksProject;
+			sourceTree = "<group>";
+		};
+		CC8FB36D43D2FAB7EE75DA53C729A2B3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F0F763F48B3E472BD88BCAAE6C240 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CD981D6D44C9BA8F6DE53F070AF9A5CE /* unity_2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3D8B42E20D82C847563980DB87866A38 /* lib */,
+				099FDEEE99D0EEC8C129FC7CF216FFE7 /* YUMIAdapter */,
+			);
+			name = unity_2.0;
+			path = unity_2.0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52033D5AAAB0412B1D8519D377799D2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33A0372D31DB25AAD39723BE92F9564 /* UADSMediationMetaData.h in Headers */,
+				85BADAAEDCAE684F2859A9D343398E76 /* UADSMetaData.h in Headers */,
+				4A74F427EFD0A76C4B057349B0D1DDF0 /* UADSPlayerMetaData.h in Headers */,
+				DDDC46D9592610C6D43A264DF985982D /* UnityAds.h in Headers */,
+				11825F2A6711136801AFB662F6A60E2F /* YUMINetworksProject-umbrella.h in Headers */,
+				37E0471BE7FDE6FA752C731BF9763FE5 /* YuMIVideoAdUnityNetworkAdapter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452AF7E135AF911EBC11066086FF8BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD823A1C984DCADF1CD20030A7AE5A51 /* Pods-YUMINetworksProject_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB088624826EA4B52A1AB1E81BD89FDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF05AF5D28C5C8D1A2C65010BDA85B5 /* Pods-YUMINetworksProject_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BA10CE24D0BA37CBE2E5BDAAC062E99 /* YUMINetworksProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5422C05871335063E5374442F2441B85 /* Build configuration list for PBXNativeTarget "YUMINetworksProject" */;
+			buildPhases = (
+				96DD78CA2FF3A2EA53BE232B3DD800C9 /* Sources */,
+				914EE9474CE3C68E29930735EA57195A /* Frameworks */,
+				52033D5AAAB0412B1D8519D377799D2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUMINetworksProject;
+			productName = YUMINetworksProject;
+			productReference = 2A339D7B9886599E8D2C030ED97E4222 /* YUMINetworksProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7143FAB8C0D5D22667284786FA17DC32 /* Pods-YUMINetworksProject_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5A80CD707F6BF7AFF1B875695A4FBC /* Build configuration list for PBXNativeTarget "Pods-YUMINetworksProject_Example" */;
+			buildPhases = (
+				A13F9D7DA213CCCD21B1EB440F15F218 /* Sources */,
+				D4C78E2E5A72DBD9AA5680613F4C4491 /* Frameworks */,
+				8452AF7E135AF911EBC11066086FF8BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E50499560F9A01C4370D07C3C3D76775 /* PBXTargetDependency */,
+			);
+			name = "Pods-YUMINetworksProject_Example";
+			productName = "Pods-YUMINetworksProject_Example";
+			productReference = 846AB644C3BFDAB90145800627FA7F73 /* Pods_YUMINetworksProject_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CA08937A90906A763894F98184EBC04 /* Pods-YUMINetworksProject_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2931D8316DBBD65288DC167CB6D9E8C /* Build configuration list for PBXNativeTarget "Pods-YUMINetworksProject_Tests" */;
+			buildPhases = (
+				D2E8FDA05B6C2BF44ECB38497450B5A0 /* Sources */,
+				6E692A1EFFA10F5E1F4700F2950AA337 /* Frameworks */,
+				AB088624826EA4B52A1AB1E81BD89FDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YUMINetworksProject_Tests";
+			productName = "Pods-YUMINetworksProject_Tests";
+			productReference = E214AE757EBA12DB6C1822D708CC7001 /* Pods_YUMINetworksProject_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C6FE5C780348AFB23AA84606CE250CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7143FAB8C0D5D22667284786FA17DC32 /* Pods-YUMINetworksProject_Example */,
+				9CA08937A90906A763894F98184EBC04 /* Pods-YUMINetworksProject_Tests */,
+				4BA10CE24D0BA37CBE2E5BDAAC062E99 /* YUMINetworksProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96DD78CA2FF3A2EA53BE232B3DD800C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5539D012FBDAD7F8A49544E288C26B5D /* audio_mute.png in Sources */,
+				42135031969972F5A2D7C33BF7D01798 /* audio_mute@2x.png in Sources */,
+				39A22C8A4FBFD287F5EC80116249F640 /* audio_on.png in Sources */,
+				7B9FD2632DA0174AF590D4CA1267EB96 /* audio_on@2x.png in Sources */,
+				6198722795243806C46B9046576BEE6C /* Info.plist in Sources */,
+				71562C607F4010EFCD3C4BD9AD7B92BD /* module.modulemap in Sources */,
+				6983F64D595A7BE62D5C657367C86D00 /* UnityAds in Sources */,
+				DB4E3BACCFE2578733060D78145AD591 /* YUMINetworksProject-dummy.m in Sources */,
+				C1D38D4D7189B9317F50E7577703B089 /* YuMIVideoAdUnityNetworkAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13F9D7DA213CCCD21B1EB440F15F218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4B1F6FC1ECA5FA9F5C539CD56F4EC8 /* Pods-YUMINetworksProject_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E8FDA05B6C2BF44ECB38497450B5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79D2017BF69407397D6E9F40CB9026B /* Pods-YUMINetworksProject_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E50499560F9A01C4370D07C3C3D76775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YUMINetworksProject;
+			target = 4BA10CE24D0BA37CBE2E5BDAAC062E99 /* YUMINetworksProject */;
+			targetProxy = 1B1F5DEA01CE74033E71E498E0B9FDB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		101E525F5C49B5026416B216DDF9F4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B04D4EDD5A837A848968C943B1B4F1F /* Pods-YUMINetworksProject_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YUMINetworksProject_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YUMINetworksProject_Example/Pods-YUMINetworksProject_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YUMINetworksProject_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43836E89D28BD90653404DF6422F3C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F9AD752313D1C2BA8B1AAF7F2717B7 /* Pods-YUMINetworksProject_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YUMINetworksProject_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YUMINetworksProject_Example/Pods-YUMINetworksProject_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YUMINetworksProject_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A817A2A18894E7A46F047DC852B261E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20131497890DD1BFE18024867708621 /* Pods-YUMINetworksProject_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YUMINetworksProject_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YUMINetworksProject_Tests/Pods-YUMINetworksProject_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YUMINetworksProject_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA18F958296BED75AF4ADFA4D01D390E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C877F8F4DA792F5F27AF8EC1A5220FBD /* YUMINetworksProject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YUMINetworksProject/YUMINetworksProject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YUMINetworksProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YUMINetworksProject/YUMINetworksProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YUMINetworksProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDCCB9057CFA74C56833AE862A24ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E92299BFFE2402C6DD47BBAB6EEFEE /* Pods-YUMINetworksProject_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YUMINetworksProject_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YUMINetworksProject_Tests/Pods-YUMINetworksProject_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YUMINetworksProject_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F11C5A5F8CFB947EBA35DF4B1F97E89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C877F8F4DA792F5F27AF8EC1A5220FBD /* YUMINetworksProject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YUMINetworksProject/YUMINetworksProject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YUMINetworksProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YUMINetworksProject/YUMINetworksProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YUMINetworksProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A5A80CD707F6BF7AFF1B875695A4FBC /* Build configuration list for PBXNativeTarget "Pods-YUMINetworksProject_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43836E89D28BD90653404DF6422F3C51 /* Debug */,
+				101E525F5C49B5026416B216DDF9F4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5422C05871335063E5374442F2441B85 /* Build configuration list for PBXNativeTarget "YUMINetworksProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA18F958296BED75AF4ADFA4D01D390E /* Debug */,
+				F11C5A5F8CFB947EBA35DF4B1F97E89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2931D8316DBBD65288DC167CB6D9E8C /* Build configuration list for PBXNativeTarget "Pods-YUMINetworksProject_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A817A2A18894E7A46F047DC852B261E8 /* Debug */,
+				BDCCB9057CFA74C56833AE862A24ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

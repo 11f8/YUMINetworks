@@ -1,0 +1,6 @@
+framework module YUMINetworksProject {
+  umbrella header "YUMINetworksProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

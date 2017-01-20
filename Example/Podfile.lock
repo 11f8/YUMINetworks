@@ -1,0 +1,16 @@
+PODS:
+  - YUMINetworksProject (0.1.0)
+
+DEPENDENCIES:
+  - YUMINetworksProject (from `../`)
+
+EXTERNAL SOURCES:
+  YUMINetworksProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YUMINetworksProject: db21901a0ae13810de2909b73d4823741e09500d
+
+PODFILE CHECKSUM: fd6bfd67a0bb28b4466b723748da52e6e7feb79a
+
+COCOAPODS: 1.1.1
